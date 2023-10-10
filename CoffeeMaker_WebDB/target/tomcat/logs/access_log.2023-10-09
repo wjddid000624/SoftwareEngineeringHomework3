@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:45:32 +0900] "GET /CoffeeMaker_WebDB HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:45:45 +0900] "GET /CoffeeMaker_WebDB/ HTTP/1.1" 200 994 http-bio-8080-exec-3 12958
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:45:45 +0900] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:45:48 +0900] "GET /CoffeeMaker_WebDB/add_recipe.jsp HTTP/1.1" 200 1497 http-bio-8080-exec-5 178
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:45:49 +0900] "GET /CoffeeMaker_WebDB/index.jsp HTTP/1.1" 200 994 http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:46:56 +0900] "GET /CoffeeMaker_WebDB/check_inventory.jsp HTTP/1.1" 200 859 http-bio-8080-exec-8 237
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:47:07 +0900] "GET /CoffeeMaker_WebDB/delete_recipe.jsp HTTP/1.1" 200 865 http-bio-8080-exec-10 4288
+0:0:0:0:0:0:0:1 - - [09/Oct/2023:21:47:57 +0900] "GET /CoffeeMaker_WebDB/ HTTP/1.1" 200 994 http-bio-8080-exec-1 759
