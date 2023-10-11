@@ -21,9 +21,9 @@ public class InventoryDB {
 
         try{
             conn = db.getConnection();
-            stmt = conn.prepareStatement("DELETE FROM inventory");
-            int deleted = stmt.executeUpdate();
-            if(deleted >= 0){
+            stmt = conn.prepareStatement("SELECT COUNT(* )FROM inventory");
+            ResultSet rs = stmt.executeQuery();
+            if(rs.next() && rs.getInt(1) == 0){
                 stmt = conn.prepareStatement("INSERT INTO inventory VALUES (?, ?, ?, ?)");
                 stmt.setInt(1, 15);
                 stmt.setInt(2, 15);
